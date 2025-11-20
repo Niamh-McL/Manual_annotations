@@ -13,9 +13,9 @@ custom_raw = load_dat(taini_data_path)
 annotations = load_labels(label_file_path)
 
 #Create interactive plot of 24-hour window
-set_browser_backend('qt')
+set_browser_backend('matplotlib')
 annot_custom_raw = custom_raw.set_annotations(annotations)
 
 tmin = start_sample/sample_rate
 tmax = end_sample/sample_rate
-annot_custom_raw.crop(tmin, tmax).plot(scalings = "auto", order=[0,1,2,3,4,6,7,8,9,10,11,12,13,14, 15], show_options = "true", block=True)
+annot_custom_raw.crop(tmin, tmax).plot(None, 60, 0, 2, scalings = "auto", order=[eeg_1-1, eeg_2-1], show_options = "true")

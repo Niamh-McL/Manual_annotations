@@ -10,5 +10,9 @@ display_decimation = 1
 start_sample = 12214513
 end_sample = 33849072
 
+#eeg channels to label
+eeg_1 = 3
+eeg_2 = 16
+
 #annotations/labels file
 label_file_path = "C:\\MNE_Alfredo_update\\381_annot.csv"
