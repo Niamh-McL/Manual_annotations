@@ -6,5 +6,9 @@ sample_rate = 250.4
 sample_datatype = 'int16'
 display_decimation = 1
 
+#start and end sample for 24-hour quantification period
+start_sample = 12214513
+end_sample = 33849072
+
 #annotations/labels file
 label_file_path = "C:\\MNE_Alfredo_update\\381_annot.csv"

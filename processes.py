@@ -41,7 +41,6 @@ def load_dat(filename):
 
     return custom_raw
 
-
 def load_labels(filename):
     print("Loading_" + filename)
 
@@ -59,3 +58,4 @@ def load_labels(filename):
 
     print("Annotations loaded.")
     return annotations
+
