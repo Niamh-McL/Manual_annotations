@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import mne
 
 from mne.viz import set_browser_backend
-from processes import load_dat, load_labels, quantification_window
+from processes import load_dat, load_labels
 from parameters import taini_data_path, label_file_path, sample_rate, start_sample, end_sample
 
 #create MNE raw object for interactive plotting
