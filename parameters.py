@@ -1,5 +1,7 @@
 #taini data and metadata
-taini_data_path="C:\\Users\\niamh\\OneDrive\\Desktop\\Analysis\\Raw_data\\SCN2A_EEG\\SCN2A\\month_6\\SCN2A_381\\TAINI_1047_B_SCN2A_381_SOM1_HELMET-2023_10_16-0000.dat"
+taini_data_path="C:\\Users\\niamh\\OneDrive\\Desktop\\Analysis\\Raw_data\\SCN2A_EEG\\SCN2A\\month_6\\SCN2A_669\\TAINI_1047_B_SCN2A_669_BL-2024_10_04-0000.dat"
+
+animal_id = taini_data_path.split("_SCN2A_")[1][:3]
 
 number_of_channels = 16
 sample_rate = 250.4
@@ -14,5 +16,9 @@ end_sample = 33849072
 eeg_1 = 3
 eeg_2 = 16
 
+
+#previously annotated? (True or False)
+previously_annotated = True
+
 #annotations/labels file
-label_file_path = "C:\\MNE_Alfredo_update\\381_annot.csv"
+label_file_path = "C:\\Users\\niamh\\OneDrive\\Desktop\\Manual_annotations-master\\669_annotations.csv"
