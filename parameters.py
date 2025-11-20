@@ -1,7 +1,7 @@
 #taini data and metadata
 taini_data_path="C:\\Users\\niamh\\OneDrive\\Desktop\\Analysis\\Raw_data\\SCN2A_EEG\\SCN2A\\month_6\\SCN2A_669\\TAINI_1047_B_SCN2A_669_BL-2024_10_04-0000.dat"
 
-animal_id = taini_data_path.split("_SCN2A_")[1][:3]
+animal_id = taini_data_path.split("_SCN2A_")[1].split("_")[0]
 
 number_of_channels = 16
 sample_rate = 250.4
