@@ -31,5 +31,6 @@ label_file_path = "C:/Users/niamh/OneDrive/Desktop/Manual_annotations-master/718
 <img width="3200" height="2007" alt="ExampleTrace_0100" src="https://github.com/user-attachments/assets/101695b2-ebe3-44d0-a1ee-bd81097f70ef" />
 
 ### immature discharge
-<img width="3200" height="2007" alt="ExampleTrace_0200" src="https://github.com/user-attachments/assets/793d5732-442b-4269-ac5a-8c6786eba04d" />
+<img width="3200" height="2007" alt="ExampleTrace_0200" src="https://github.com/user-attachments/assets/ad62faab-819e-47bb-9253-857f024ea79d" />
+
 
