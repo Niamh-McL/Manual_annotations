@@ -21,10 +21,11 @@ set_browser_backend('matplotlib')
 
 if previously_annotated == True:
     if first_from_automatically_detected == True:
+        
+        # Load in existing automatic labels
         annotations = load_detected_swds_labels(label_file_path, tmin)
-
     else:
-
+        
         # Load in existing manual labels
         annotations = load_labels(label_file_path)
 
