@@ -1,4 +1,6 @@
 # Filter manually annotated segments with criteria
+# Apply interval criteria then minimum duration - then amplitude thresholding (based on literature)
+
 
 # minimum event duration (1s)  (define function in processes.py and call in post-processing.py)
 for event in labelled_events:
