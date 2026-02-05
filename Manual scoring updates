@@ -1,17 +1,23 @@
 Data to manually score:
-- [x] 718 - channel 16
-- [x] 747 - channel 16
-- [x] 754 - channel 3 
-- [x] 757 - channel 16 
-- [x] 758 - channel 16
+- [x] 718 - channel 16 - completed
+- [x] 747 - channel 16 - completed
+- [x] 754 - channel 3 - completed
+- [x] 757 - channel 16 - completed
+- [x] 758 - channel 16 - completed
 - [] 809 - channel 16 - Niamh ongoing scoring
-- [x] 810 - Ona 
+- [x] 810 - Ona completed
 - [] 847 - channel 16 - Niamh ongoing scoring (need to filter to remove effect of noise)
-- [] 864 - channel 3 - Ona
+- [] 864 - channel 3 - Ona ongoing
 - [x] 919 - channel 3
 - [x] 980 - channel 3 
 - [] 983 - channel
-- [] 1003 - channel
-- [] 1004 - channel 
-- [] 1012 - channel
-- [] 1014 - channel 
+- [] 1003 - channels 4 and 10
+- [] 1004 - channels 3 and 16
+- [] 1012 - channels 3 and 16
+- [] 1013 - channel 3
+- [] 1014 - channels 3 and 9
+- [] 1061 - channels 3 and 16 
+- [] 1062 - channels 3 and 10 
+- [] 1064 - channels 3 and 16 
+- [] 1065 - channels 3 and 16 
+- [] 1066 - channel 16
